@@ -1,0 +1,1234 @@
+/* 기본설정 */
+.hidden{ width:1px; height:1px; font-size:0px; line-height:0px; position:absolute; ​}
+/*navy #1d4570*/
+/*point #c69c6d*/
+a:link{text-decoration:none;}
+
+
+/*******************************************************************************************************/
+/*헤더&네비*/
+header#header_wrap{
+	width:50px; height:800px; 
+	position:fixed; right:0px; top:0px;
+	z-index:10;
+}
+section#header_inner{
+	width:100%; height:100%;
+	position:relative; left:0px; top:0px;
+}
+ul#menu_list{
+	width:200px; height:220px;
+	position:absolute; left:-200px; top:50%; margin-top:-110px;
+}
+ul#menu_list li{
+	width:100%; height:32px;
+}
+
+ul#menu_list li a:link{ color:#c69c6d;}
+ul#menu_list li a:visited{ color:#c69c6d; }
+ul#menu_list li a:hover{ color:white; }
+
+
+ul#menu_list li:nth-child(1){
+	height:36px;
+}
+ul#menu_list li:nth-child(2){
+	height:36px; margin-bottom:20px;
+}
+
+.portflio_menu{
+	font:normal 21px "Noto Sans KR"; font-weight:400; color:white; text-align:center;
+}
+.main_menu{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:white; text-align:center;
+}
+
+div#menu_bg{
+	width:310px; height:100%;
+	position:absolute; left:-240px; top:0px; 
+	background:#0d243e;
+	z-index:-1;
+}
+nav#menu_box{
+	width:50px; height:50px;
+	position:absolute; left:0px; top:50%; margin-top:-25px;
+}
+
+div#menu_bar01{
+	width:35px; height:2px; background:#c69c6d;
+	position:absolute; left:0px; top:9px;
+	border-radius:1px;
+}
+div#menu_bar02{
+	width:35px; height:2px; background:#c69c6d;
+	position:absolute; left:0px; top:24px;
+	border-radius:1px;
+	-webkit-transition:1s ease;
+}
+div#menu_bar03{
+	width:35px; height:2px; background:#c69c6d;
+	position:absolute; left:0px; top:39px;
+	border-radius:1px;
+}
+
+
+
+
+/*******************************************************************************************************/
+/*프로필*/
+#pagepiling{
+  width:100%; height:800px; 
+}
+.section{
+	width:100%; height:100%;
+	background:white;
+}
+section.contants_inner{
+	width:1000px; height:600px; margin:0px auto;
+	position:relative; left:0px; top:0px;
+	padding:60px;
+}
+/*포트폴리오*/
+div.portflio_wrap{
+	width:100%; min-height:400px; float:left;
+	
+}
+section.portflio_inner{
+	width:1000px; height:100%; margin:0px auto;
+	padding-top:60px; padding-bottom:60px;
+	position:relative; left:0px; top:0px;
+	box-sizing:border-box;
+}
+
+div#background_wrap{
+	width:100%; height:1200px;
+	background:white;
+	position:fixed; left:0px; height:0px;
+	z-index:100;
+}
+
+
+/*******************************************************************************************************/
+/*컨텐츠*/
+.contents_slogan{
+	font:normal 16px "Noto Sans KR"; font-weight:400; color:#b6b6b6;
+	text-indent:2px;
+}
+.contents_title{
+	font:normal 34px/30px "Noto Sans KR"; font-weight:800; color:#1d4570;
+}
+.contents_text_80{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:#b6b6b6;
+	margin-bottom:80px;
+}
+.contents_text_200{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:#b6b6b6;
+	margin-bottom:200px;
+	position:relative; left:0px; top:0px;
+}
+.sub_title{
+	font:normal 28px "Noto Sans KR"; font-weight:400; text-align:center;
+	margin-bottom:60px;
+}
+.text_center{
+	text-align:center;
+}
+.navy_color{
+	color:#1d4570 !important;
+}
+.point_color{
+	color:#c69c6d !important;
+}
+.white_color{
+	color:white !important;
+}
+.black_color{
+	color:black !important;
+}
+.navy_bg{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#25578e+1,132e4b+100 */
+	background: #25578e; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #25578e 1%, #132e4b 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #25578e 1%,#132e4b 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #25578e 1%,#132e4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#25578e', endColorstr='#132e4b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+/*페이지표시*/
+div.page_num{
+	width:100%; height:50px;
+	margin-bottom:80px;
+}
+p.page_count{
+	font:normal 34px "Noto Sans KR"; font-weight:800; color:white;
+}
+p.page_count span{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:#b6b6b6;
+}
+
+div#page_num_position{
+	width:64px;
+	position:absolute; right:0px; top:60px;
+}
+
+/*기타*/
+div#sub_bg{
+	width:100%; height:500px;
+	background:url("/aki_profile/images/uiux/sub_banner.jpg") no-repeat right 0px;
+	background-size:cover;
+	position:absolute; left:0px; top:2300px;
+	z-index:-10;
+}
+
+/*******************************************************************************************************/
+/*index_메인비쥬얼*/
+
+#visual_bg{
+	width:100%; height:280px;
+	background:url("/aki_profile/images/index/profile_index_book.png") no-repeat center 0px;
+	background-size:contain;
+	position:absolute; left:0px; top:208px;
+	-webkit-transition:0.3s ease;
+}
+
+.uiux_book{
+	transform:rotate(-10deg);
+}
+
+.print_book{
+	transform:rotate(10deg);
+}
+
+
+div#visual_title{
+	width:100%; height:100px; float:left;
+	margin-top:50px;
+}
+p#visual_slogan{
+	font:normal 21px "Noto Sans KR"; font-weight:100; color:white; text-align:center;
+}
+p#visual_headline{
+	font:normal 50px/48px "Noto Sans KR"; font-weight:800; color:white; text-align:center;
+	letter-spacing:10px;
+}
+p#my_name{
+	font:normal 16px/25px "Noto Sans KR"; font-weight:400; color:#c69c6d; text-align:center;
+}
+
+div#more_wrap{
+	width:100%; height:110px; float:left;
+	position:relative; left:0px; top:290px;
+}
+section#more_inner{
+	width:700px; height:100%; margin:0px auto;
+	position:relative; left:0px; top:0px;
+}
+div#uiux_box{
+	width:100px; height:100%;
+	border:solid 6px #cbcbcb; box-sizing:border-box;
+	box-shadow:2px 2px 20px rgba(10,10,10,0.7);
+	border-radius:3px;
+	position:absolute; left:200px; top:0px;
+}
+div#print_box{
+	border:solid 6px #cbcbcb; box-sizing:border-box;
+	box-shadow:2px 2px 20px rgba(10,10,10,0.7);
+	border-radius:3px;
+	width:100px; height:100%; position:absolute; right:200px; top:0px;
+}
+
+p.portflio_text{
+	font:normal 21px/100px "Noto Sans KR"; font-weight:400; color:#cbcbcb; text-align:center;
+	text-shadow:2px 2px 5px rgba(10,10,10,0.7);
+}
+div#uiux_more{
+	width:150px; height:100%; position:absolute; left:0px; top:0px;
+	margin-top:30px;
+	text-align:left;
+}
+div#print_more{
+	width:150px; height:100%; position:absolute; right:0px; top:0px;
+	margin-top:30px;
+	text-align:right;
+}
+p.portflio_more{
+	font:normal 14px "Noto Sans KR"; font-weight:100; color:white;
+	
+}
+p.portflio_more span{
+	font:normal 14px "Noto Sans KR"; font-weight:400; color:#c69c6d;
+}
+p#btn_left{
+	width:100%; height:14px; 
+	background:url("/aki_profile/images/index/btn_left.png") no-repeat left 0px;
+	background-size:contain;
+	margin-bottom:10px;
+}
+p#btn_right{
+	width:100%; height:14px; 
+	background:url("/aki_profile/images/index/btn_right.png") no-repeat right 0px;
+	background-size:contain;
+	margin-bottom:10px;
+}
+
+div#uiux_line{
+	width:1px; height:152px; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#686767+11,cbcbcb+100 */
+	background: #686767; /* Old browsers */
+	background: -moz-linear-gradient(top, #686767 11%, #cbcbcb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #686767 11%,#cbcbcb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #686767 11%,#cbcbcb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686767', endColorstr='#cbcbcb',GradientType=0 ); /* IE6-9 */
+	box-shadow:5px 0px 3px rgba(10,10,10,0.7);
+	position:absolute; left:50%; top:348px; margin-left:-100px; 
+}
+
+div#print_line{
+	width:1px; height:152px; 
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#686767+11,cbcbcb+100 */
+	background: #686767; /* Old browsers */
+	background: -moz-linear-gradient(top, #686767 11%, #cbcbcb 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #686767 11%,#cbcbcb 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #686767 11%,#cbcbcb 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#686767', endColorstr='#cbcbcb',GradientType=0 ); /* IE6-9 */
+	box-shadow:5px 0px 3px rgba(10,10,10,0.7);
+	position:absolute; left:50%; top:348px; margin-left:100px; 
+}
+
+p#btn_mouse{
+	width:30px; height:60px; 
+	position:absolute; left:50%; bottom:20px; margin-left:-15px; 
+	background:url("/aki_profile/images/index/mouse_scroll.png") no-repeat center 0px;
+	background-size:contain;
+	opacity:0.3;
+}
+
+
+
+
+
+div#copyright_box{
+	width:480px; height:230px;
+	position:absolute; left:50%; top:50%; margin-left:-240px; margin-top:-115px;
+	padding:15px;
+	background:#0d243e;
+	box-shadow:5px 5px 10px rgba(0,0,0,0.5)
+	box-sizing:border-box;
+	z-index:50;
+}
+div#copyright_inner{
+	height:100%;
+	padding:15px;
+	border:solid 1px #c69c6d;
+	box-sizing:border-box;
+}
+
+p#copyright_title{
+	width:100%; height:40px; float:left;
+	font:bold 24px "돋음"; color:#c69c6d;
+	margin-bottom:20px;
+	
+}
+p#copyright_text{
+	width:100%; height:140px; float:left;
+	font:normal 14px "돋음"; color:#c69c6d;
+}
+p#copyright_text span{
+	font:bold 16px "돋음"; color:#c69c6d;
+}
+
+div#copyright_close{
+	width:40px; height:40px;
+	position:absolute; right:30px; top:30px;
+	background:url("/aki_profile/images/index/copy_close.png") no-repeat center 0px;
+	background-size:cover;
+}
+
+div#copyright_bg{
+	width:100%; height:100%;
+	position:absolute; left:0px; top:0px;
+	background:rgba(0,0,0,0.6);
+	z-index:10;
+}
+
+
+
+
+
+
+
+/*******************************************************************************************************/
+/*index_소개*/
+div.about_bg{
+	background:url("/aki_profile/images/index/profile_about.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+
+#slide_inner{
+	width:1000px; height:420px; margin-top:100px;
+	position:relative; left:0px; top:0px;
+	overflow:hidden; 
+}
+ul#slide_list{
+	width:7700px; height:100%;
+	position:absolute; left:0px; top:0px;
+}
+ul#slide_list>li{
+	width:1000px; height:100%; float:left;
+	margin-right:100px;
+	position:relative; left:0px; top:0px;
+}
+
+div#slide_prev{
+	width:50px; height:50px;
+	position:absolute; right:150px; top:80px;
+	/*position:absolute; left:50%; top:50%; margin-left:-600px;*/
+	background:url("/aki_profile/images/index/slide_prev.png") no-repeat center 0px;
+	background-size:contain;
+}
+div#slide_next{
+	width:50px; height:50px;
+	position:absolute; right:80px; top:80px;
+	/*position:absolute; left:50%; top:50%; margin-left:570px;*/
+	background:url("/aki_profile/images/index/slide_next.png") no-repeat center 0px;
+	background-size:contain;
+}
+
+div#slide_num{
+	width:80px; height:30px;
+	position:absolute; right:20px; bottom:20px;
+	text-align:right;
+	color:white;
+}
+div#slide_num p{
+	font:normal 32px "Noto Sans KR"; font-weight:400; color:white;
+}
+div#slide_num span{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:white;
+}
+
+/*슬라이드00*/
+div#about00_list{
+	width:300px; height:100%; float:left;
+	position:relative; left:0px; top:0px;
+}
+p#about00_skill{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:white;
+}
+p#about00_name{
+	font:normal 32px "Noto Sans KR"; font-weight:800; color:#c69c6d;
+	margin-top:100px;
+}
+p#about00_text{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:white;
+}
+div#about00_img{
+	width:400px; height:400px; float:left;
+	background:#c69c6d;
+	border-radius:200px;
+	margin-left:200px;
+}
+/*슬라이드01*/
+p#about01_img{
+	width:400px; height:240px;
+	background:url("/aki_profile/images/index/about_01.png") no-repeat center;
+	background-size:contain;
+	margin:0px auto;
+	opacity:0;
+}
+p#about01_text{
+	width:100%; height:160px;
+	font:normal 14px "Noto Sans KR"; font-weight:400; color:white; text-align:center;
+	margin-top:20px;
+	position:relative; left:0px; top:100px;
+	opacity:0;
+}
+
+/*슬라이드02*/
+ul#about02_list{
+	width:100%; height:100%;
+}
+ul#about02_list li{
+	width:32%; float:left;
+	position:relative; left:0px; top:100px;
+	opacity:0;
+}
+ul#about02_list li:nth-child(2){
+	width:43%;
+}
+ul#about02_list li:nth-child(3){
+	width:25%;
+}
+p.career_chapter{
+	font:normal 21px "Noto Sans KR"; font-weight:800; color:white;
+}
+p.career_num{
+	margin-top:10px;
+	font:normal 120px/100px "Noto Sans KR"; font-weight:800; color:#c69c6d;
+	letter-spacing:-5px;
+}
+p.career_title{
+	margin-top:30px;
+	font:normal 50px/50px "Noto Sans KR"; font-weight:400; color:white;
+}
+p.career_text{
+	margin-top:30px;
+	font:normal 18px "Noto Sans KR"; font-weight:400; color:white;
+}
+span.career_year{
+	font:normal 31px "Noto Sans KR"; font-weight:800; color:white;
+	position:absolute; left:56px; top:100px;
+}
+span.career_web{
+	font:normal 31px "Noto Sans KR"; font-weight:800; color:white;
+	position:absolute; left:180px; top:100px;
+}
+span.career_plus{
+	font:normal 50px "Noto Sans KR"; font-weight:800; color:white;
+	position:absolute; left:52px; top:60px;
+}
+/*슬라이드03*/
+#editing_design{
+	opacity:0
+}
+#editing_box{
+	position:relative; left:0px; top:100px;
+	opacity:0
+}
+div.about_career{
+	width:30%; height:100%; float:left;
+	position:relative; left:0px; top:0px;
+}
+
+div.about_box{
+	width:65%; height:100%; float:left;
+	margin-left:5%;
+}
+ul#career_imgList{
+	width:100%; height:120px; 
+	margin-top:40px; margin-bottom:14px;
+}
+ul#career_imgList li{
+	width:32%; height:100%; float:left;
+	margin-right:2%; 
+	background:#c69c6d;
+}
+
+ul#career_imgList li:last-child{
+	margin-right:0%;
+}
+
+ul#career_imgList li:nth-child(1){
+	background:url("/aki_profile/images/index/print01.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#career_imgList li:nth-child(2){
+	background:url("/aki_profile/images/index/print02.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#career_imgList li:nth-child(3){
+	background:url("/aki_profile/images/index/print03.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+/*슬라이드04*/
+#career_design{
+	opacity:0
+}
+#career_box{
+	position:relative; left:0px; top:100px;
+	opacity:0
+}
+ul#web_imgList{
+	width:100%; height:120px; 
+	margin-top:40px; margin-bottom:14px;
+}
+ul#web_imgList li{
+	width:32%; height:100%; float:left;
+	margin-right:2%; 
+	background:#c69c6d;
+}
+ul#web_imgList li:last-child{
+	margin-right:0%;
+}
+ul#web_imgList li:nth-child(1){
+	background:url("/aki_profile/images/index/web01.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#web_imgList li:nth-child(2){
+	background:url("/aki_profile/images/index/web02.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#web_imgList li:nth-child(3){
+	background:url("/aki_profile/images/index/web03.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+
+/*슬라이드05*/
+#balance_design{
+	opacity:0
+}
+#balance_box{
+	position:relative; left:0px; top:100px;
+	opacity:0
+}
+ul#plus_imgList{
+	width:100%; height:120px; 
+	margin-top:40px; margin-bottom:14px;
+}
+ul#plus_imgList li{
+	width:32%; height:100%; float:left;
+	margin-right:2%; 
+	background:#c69c6d;
+}
+ul#plus_imgList li:last-child{
+	margin-right:0%;
+}
+
+ul#plus_imgList li:nth-child(1){
+	background:url("/aki_profile/images/index/balance01.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#plus_imgList li:nth-child(2){
+	background:url("/aki_profile/images/index/balance02.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+ul#plus_imgList li:nth-child(3){
+	background:url("/aki_profile/images/index/balance03.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+
+p.career_story{
+	font:normal 14px "Noto Sans KR"; font-weight:400; color:white;
+}
+
+/*슬라이드06*/
+div.plus_box{
+	width:100%; height:50px; margin-bottom:10px;
+	position:relative; left:0px; top:0px;
+}
+
+span.plus_num{
+	font:normal 32px/28px "Noto Sans KR"; font-weight:400; color:#c69c6d;
+}
+
+span.plus_story{
+	font:normal 14px "Noto Sans KR"; font-weight:400; color:white;
+	position:absolute; left:50px; top:0px;
+}
+
+/*슬라이드07*/
+
+p#link_title{
+	font:normal 90px "Noto Sans KR"; font-weight:800; color:#c69c6d;
+	text-align:center;
+	position:relative; left:0px; top:100px;
+}
+p#link_title span{
+	font:normal 110px "Noto Sans KR"; font-weight:800; color:white;
+	position:relative; left:8px; top:-20px;
+}
+
+ul#link_list{
+	width:740px; height:120px;
+	margin:0px auto;
+	opacity:0;
+}
+ul#link_list li{
+	border:solid 1px white; box-sizing:border-box;
+	width:365px; height:50px; float:left;
+	margin-right:10px; margin-top:10px;
+	
+}
+ul#link_list li:nth-child(2){
+	margin-right:0px;
+}
+ul#link_list li:nth-child(3){
+	width:240px;
+}
+ul#link_list li:nth-child(4){
+	width:240px;
+}
+ul#link_list li:nth-child(5){
+	width:240px; margin-right:0px;
+}
+
+ul#link_list li p{
+	width:100%; height:100%;
+	font:normal 16px/50px "Noto Sans KR"; font-weight:400; color:white; text-align:center;
+}
+ul#link_list li a:link{ color:white;}
+ul#link_list li a:visited{ color:white; }
+ul#link_list li a:hover{ color:#c69c6d; }
+
+
+
+
+/*******************************************************************************************************/
+/*index_디자인스킬*/
+div.skill_bg{
+	background:url("/aki_profile/images/index/skill_bg.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+
+
+div#skill_area{
+	width:100%; height:350px; float:left;
+	margin-top:180px;
+}
+
+.circles {
+  margin-bottom: -10px;
+}
+
+.circle {
+  width: 130px; height:150px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.circle canvas {
+  vertical-align: top;
+}
+
+.circle strong {
+	width:50px; height:50px;
+  position: absolute; top:40px; left:48px;
+  text-align: center;
+  font-size: 30px;
+  color:#c69c6d;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+  color:#c69c6d;
+}
+
+.circle span {
+  display: block;
+  color:black;
+}
+ul#skillSet{
+    width:100%; height:350px;
+  
+}
+ul#skillSet li{
+    width:300px; height:150px; float:left;
+    margin-right:50px;
+    position:relative; left:0px; top:0px;
+}
+ul#skillSet li:nth-child(3n){
+	margin-right:0px;
+}
+ul#skillSet li:nth-child(4){
+	margin-top:50px;
+}
+ul#skillSet li:nth-child(5){
+	margin-top:50px;
+}
+ul#skillSet li:nth-child(6){
+	margin-top:50px;
+}
+
+ul#skillSet li canvas{
+	position:absolute; left:180px; top:0px;
+	width:120px; height:120px;
+}
+
+div.skill_box{
+	width:160px; height:150px; float:left;
+	margin-right:10px;
+	position:relative; left:0px; top:0px;
+}
+
+p.skill_icon{
+	width:60px; height:60px;
+	margin-bottom:10px;
+}
+p.skill_icon img{
+	width:80%; height:80%; display:block;
+}
+p.skill_title{
+	font:normal 16px/21px "Noto Sans KR"; font-weight:800; color:#1d4570;
+	margin-bottom:5px;
+}
+p.skill_text{
+	font:normal 12px/16px "Noto Sans KR"; font-weight:100; color:gray;
+}
+
+
+
+
+
+/*******************************************************************************************************/
+/*index_연락처*/
+div#page4{
+	background:url("/aki_profile/images/index/profile_contact.jpg") no-repeat center;
+	background-size:cover;
+}
+div#contact_ready{
+	width:100%; height:200px; float:left;
+	margin-top:200px;
+}
+div#contact_information{
+	width:100%; height:170px; float:left;
+}
+p#contact_slogan{
+	font:normal 60px/60px "Noto Sans KR"; font-weight:800; color:white;
+	padding-left:10px;
+}
+p.code_text{
+	font:normal 16px "Noto Sans KR"; color:#c69c6d;
+}
+
+p.information_title{
+	font:normal 16px "Noto Sans KR"; font-weight:400; color:white;
+	width:50px; margin-right:20px;
+	margin-left:14px; float:left;
+}
+p.information_text{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:white;
+}
+
+
+
+/*******************************************************************************************************/
+/*uiux_반응형*/
+div#mockup_responsive{
+	width:100%; height:830px; float:left; margin-bottom:100px;
+	background:url("/aki_profile/images/uiux/mockup_responsive.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+.uiux_slogan{
+	font:normal 21px "Noto Sans KR"; font-weight:400; color:white;
+	margin-bottom:6px;
+	position:relative; left:0px; top:0px;
+}
+.uiux_headline{
+	font:normal 50px/50px "Noto Sans KR"; font-weight:800; color:white;
+	margin-bottom:40px;
+	position:relative; left:0px; top:0px;
+}
+
+ul#portflio_banner{
+	width:100%; height:420px; float:left;
+	margin-bottom:100px;
+}
+ul#portflio_banner li{
+	position:relative; left:0px; top:0px;
+	float:left;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+}
+ul#portflio_banner li:nth-child(1){
+	width:490px; height:420px; margin-right:20px;
+	background:url("/aki_profile/images/uiux/banner_pc.jpg") no-repeat right 0px;
+	background-size:cover;
+}
+ul#portflio_banner li:nth-child(2){
+	width:490px; height:200px; margin-bottom:20px;
+	background:url("/aki_profile/images/uiux/banner_tablet.jpg") no-repeat right 0px;
+	background-size:cover;
+}
+ul#portflio_banner li:nth-child(3){
+	width:235px; height:200px; margin-right:20px;
+	background:url("/aki_profile/images/uiux/banner_mobile.jpg") no-repeat right 0px;
+	background-size:cover;
+}
+ul#portflio_banner li:nth-child(4){
+	width:235px; height:200px;
+	background:url("/aki_profile/images/uiux/QR_mobile.jpg") no-repeat center 0px;
+	background-size:contain;
+	box-shadow:none;
+}
+ul#portflio_banner li div{
+	width:100%; height:100%;
+}
+
+ul#portflio_banner li:nth-child(1) div:hover{ background:rgba(150,150,150,0.2); }
+ul#portflio_banner li:nth-child(2) div:hover{ background:rgba(150,150,150,0.2); }
+
+
+.banner_title{
+	font:normal 28px/28px "Noto Sans KR"; font-weight:800; color:#1d4570;
+	position:absolute; left:30px; bottom:58px;
+}
+.banner_text{
+	font:normal 16px "Noto Sans KR"; font-weight:100; color:#b6b6b6;
+	position:absolute; left:30px; bottom:30px;
+}
+
+ul#guide_list{
+	width:100%; height:140px; float:left;
+	margin-bottom:100px;
+}
+ul#guide_list li{
+	width:280px; float:left;
+	position:relative; left:0px; top:0px;
+}
+ul#guide_list li:first-child{
+	width:240px; 
+}
+ul#guide_list li:last-child{
+	width:200px;
+}
+.guide_num{
+	width:30px; height:30px; 
+	border-radius:15px;
+	border:solid 2px #1d4570; box-sizing:border-box;
+	margin-bottom:10px;
+	
+	font:normal 16px/26px "Noto Sans KR"; font-weight:400; color:#1d4570; text-align:center;
+}
+.guide_title{
+	font:normal 21px "Noto Sans KR"; font-weight:800; color:#1d4570;
+}
+.guide_text{
+	font:normal 14px "Noto Sans KR"; font-weight:100; 
+}
+.guide_icon{
+	font-size:2em; color:#b6b6b6;
+	position:absolute; right:40px; top:40px;
+}
+
+div#ideas_sketch{
+	width:1000px; height:500px; margin:0px auto;
+	background:url("/aki_profile/images/uiux/ideas_sketch.jpg") no-repeat right 0px;
+	background-size:cover;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+	margin-bottom:100px;
+	position:relative; left:0px; top:0px;
+}
+
+ul#design_proposal{
+	width:1000px; height:470px; 
+	margin:0px auto;
+	margin-bottom:100px;
+	position:relative; left:0px; top:0px;
+}
+ul#design_proposal li{
+	width:300px; height:220px; float:left; 
+	margin-right:50px; margin-bottom:50px;
+	background:white;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+}
+ul#design_proposal li:nth-child(3n){
+	margin-right:0px;
+}
+
+ul#design_proposal li:nth-child(1){
+	background:url("/aki_profile/images/uiux/proposal_01.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_proposal li:nth-child(2){
+	background:url("/aki_profile/images/uiux/proposal_02.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_proposal li:nth-child(3){
+	background:url("/aki_profile/images/uiux/proposal_03.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_proposal li:nth-child(4){
+	background:url("/aki_profile/images/uiux/proposal_04.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+ul#design_proposal li:nth-child(5){
+	background:url("/aki_profile/images/uiux/proposal_05.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+ul#design_proposal li:nth-child(6){
+	background:url("/aki_profile/images/uiux/proposal_06.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+
+/*uiux_오븐*/
+div#oven_wrap{
+	width:1000px; height:910px; margin:0px auto;
+	margin-bottom:100px;
+}
+div#oven_01{
+	width:100%; height:500px; margin:0px auto;
+	background:url("/aki_profile/images/uiux/oven_01.jpg") no-repeat right 0px;
+	background-size:cover;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+	margin-bottom:50px;
+	position:relative; left:0px; top:0px;
+}
+
+div#mockup_oven{
+	width:475px; height:360px; float:left;
+	background:url("/aki_profile/images/uiux/mockup_oven.jpg") no-repeat right 0px;
+	background-size:contain;
+	margin-right:50px;
+	position:relative; left:0px; top:0px;
+}
+
+div#oven_02{
+	width:475px; height:360px; float:left;
+	background:url("/aki_profile/images/uiux/oven_02.jpg") no-repeat right 0px;
+	background-size:contain;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+	position:relative; left:0px; top:0px;
+}
+
+div#mockup_gui{
+	width:100%; height:830px; float:left;
+	background:url("/aki_profile/images/uiux/mockup_gui.jpg") no-repeat center 0px;
+	background-size:cover;
+}
+
+div#design_style_guide_wrap{
+	width:100%; height:450px; float:left;
+}
+
+#design_style_guide_title{
+	position:relative; top:-200px;
+}
+
+ul#design_style_guide{
+	width:1000px; height:470px; 
+	margin:0px auto;
+	position:relative; top:-200px;
+}
+ul#design_style_guide li{
+	width:300px; height:210px; float:left; 
+	margin-right:50px; margin-bottom:50px;
+	box-shadow:3px 3px 5px rgba(70,70,70,0.3);
+}
+ul#design_style_guide li:nth-child(3n){
+	margin-right:0px;
+}
+
+ul#design_style_guide li:nth-child(1){
+	background:url("/aki_profile/images/uiux/style_01.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_style_guide li:nth-child(2){
+	background:url("/aki_profile/images/uiux/style_02.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_style_guide li:nth-child(3){
+	background:url("/aki_profile/images/uiux/style_03.jpg") no-repeat right 0px;
+	background-size:contain;
+}
+ul#design_style_guide li:nth-child(4){
+	background:url("/aki_profile/images/uiux/style_04.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+ul#design_style_guide li:nth-child(5){
+	background:url("/aki_profile/images/uiux/style_05.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+ul#design_style_guide li:nth-child(6){
+	background:url("/aki_profile/images/uiux/style_06.jpg") no-repeat right 0px;
+	background-size:contain; margin-bottom:0px;
+}
+
+
+/*uiux_미디어스크린*/
+div#uiux_pc{
+	width:100%; height:750px; float:left;
+	background:url("/aki_profile/images/uiux/uiux_pc.png") no-repeat right 0px;
+	background-size:contain;
+	position:relative; left:0px; top:0px;
+}
+#url_link_pc{
+	position:absolute; left:700px; top:90px;
+}
+div#uiux_tablet{
+	width:100%; height:700px; float:left;
+	background:url("/aki_profile/images/uiux/uiux_tablet.png") no-repeat right 0px;
+	background-size:contain;
+	position:relative; left:0px; top:0px;
+}
+#url_link_tablet{
+	position:absolute; left:570px; top:110px;
+}
+div#uiux_mobile{
+	width:100%; height:580px; float:left;
+	background:url("/aki_profile/images/uiux/uiux_mobile.png") no-repeat right 0px;
+	background-size:contain;
+	position:relative; left:0px; top:0px;
+}
+#url_link_mobile{
+	position:absolute; left:540px; top:120px;
+}
+
+div.url_link{
+	width:180px; height:180px; 
+	border-radius:90px;
+	background:#1d4570;
+	position:relative; left:0px; top:0px;
+	z-index:10;
+}
+div#mobile_qr_link{
+	width:180px; height:180px; 
+	background:url("/aki_profile/images/uiux/QR_mobile.png") no-repeat left 0px;
+	background-size:contain;
+	position:absolute; left:780px; top:120px;
+}
+
+.url_title{
+	font:normal 21px "Noto Sans KR"; font-weight:800; color:#c69c6d;
+	position:absolute; left:26px; top:50px;
+	
+}
+.url_text{
+	font:normal 14px "Noto Sans KR"; font-weight:100; color:white;
+	position:absolute; left:26px; top:80px;
+}
+.url_more{
+	width:60px; height:14px; 
+	background:url("/aki_profile/images/index/btn_right.png") no-repeat left 0px;
+	background-size:contain;
+	position:absolute; left:26px; top:110px;
+}
+
+div#uiux_pc_box{
+	width:509px; height:306px; overflow:hidden;
+	position:absolute; left:248px; top:524px;
+	z-index:5;
+}
+div#uiux_pc_box img{
+	width:100%;
+	position:absolute; left:0px; top:0px;
+}
+
+div#uiux_tablet_box{
+	width:246px; height:316px; overflow:hidden;
+	position:absolute; left:379px; top:1288px;	
+	z-index:5;
+}
+div#uiux_tablet_box img{
+	width:100%;
+	position:absolute; left:0px; top:0px;
+}
+
+div#uiux_mobile_box{
+	width:174px; height:316px; overflow:hidden;
+	position:absolute; left:416px; top:1998px;	
+	z-index:5;
+}
+div#uiux_mobile_box img{
+	width:100%;
+	position:absolute; left:0px; top:0px;
+}
+
+div.code_box{
+	width:450px; height:280px;
+	position:relative; left:0px; top:200px;	
+	background:pink;
+	z-index:10;
+}
+
+#code_box_pc{
+	background:url("/aki_profile/images/uiux/web_code01.jpg") no-repeat center -20px;
+	background-size:cover;
+}
+#code_box_tablet{
+	background:url("/aki_profile/images/uiux/web_code02.jpg") no-repeat center -20px;
+	background-size:cover;
+}
+#code_box_mobile{
+	background:url("/aki_profile/images/uiux/web_code03.jpg") no-repeat center -20px;
+	background-size:cover;
+}
+
+
+
+
+/*uiux_디테일*/
+div.work_list{
+	width:100%; height:400px; margin-top:100px; 
+}
+
+div.jquery_list{
+	width:100%; height:950px; margin-top:100px; 
+}
+.work_title{
+	width:30%; height:100%; float:left;
+	font:normal 32px/34px "Noto Sans KR"; font-weight:800; color:white;
+}
+.work_sub_title{
+	font:normal 18px "Noto Sans KR"; font-weight:400;
+	position:relative; left:0px; top:-10px;
+}
+.work_area{
+	width:70%; height:100%; float:left;
+}
+.work_text{
+	font:normal 16px/21px "Noto Sans KR"; font-weight:100; color:white
+}
+div#work_header{
+	width:100%; height:120px; margin-top:20px; margin-bottom:20px;
+	background:url("/aki_profile/images/uiux/KWCAG_img01.jpg") no-repeat left 10px;
+	background-size:cover;
+}
+p#work_tab{
+	width:100%; height:12px; background:#34d0b3;
+	text-align:center;
+	font:normal 8px/12px "Noto Sans KR"; font-weight:100; color:white
+}
+div#tag_area{
+	width:100%; height:140px; margin-top:20px; margin-bottom:20px; 
+}
+p#tag_img{
+	width:70%; height:100%; float:left;
+	background:url("/aki_profile/images/uiux/KWCAG_img02.jpg") no-repeat left 0px;
+	background-size:contain;
+	margin-right:2%;
+}
+span#tag_text{
+	width:28%; height:140px; 
+}
+
+div#work_jquery{
+	width:100%; height:160px; margin-top:20px; margin-bottom:20px;
+	background:url("/aki_profile/images/uiux/jQuery_img01.jpg") no-repeat left 0px;
+	background-size:cover;
+
+}
+div#jquery_area{
+	width:100%; height:140px; margin-top:20px; margin-bottom:20px; 
+}
+p#jquery_img{
+	width:70%; height:140px; float:left;
+	background:url("/aki_profile/images/uiux/jQuery_img02.jpg") no-repeat left 0px;
+	background-size:contain;
+	margin-right:2%;
+}
+
+span#jquery_text{
+	width:28%; height:140px;
+}
+div#jquery_script{
+	width:100%; height:450px; margin-top:20px; margin-bottom:20px;
+}
+p#jquery_img_03{
+	width:49%; height:450px; float:left;
+	background:url("/aki_profile/images/uiux/jQuery_img03.jpg") no-repeat left 0px;
+	background-size:cover;
+	margin-right:2%
+}
+p#jquery_img_04{
+	width:49%; height:450px;  float:left;
+	background:url("/aki_profile/images/uiux/jQuery_img04.jpg") no-repeat left 0px;
+	background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
